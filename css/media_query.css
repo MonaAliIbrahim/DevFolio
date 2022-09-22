@@ -1,0 +1,91 @@
+@media screen and (min-width: 1200px) {
+  /* Navbar */
+  .neasted-dropdown-item:hover ul.neasted-dropdown {
+    right: 0;
+    left: 100%;
+  }
+}
+
+@media screen and (max-width: 991.8px) {
+  /* Navbar */
+  nav li a::before {
+    left: 0;
+  }
+  nav li a.active::before {
+    width: 15%;
+  }
+  .navbar-brand,
+  .navbar-toggler {
+    z-index: 1000;
+  }
+  .navbar-collapse {
+    position: fixed;
+    inset: 0px;
+    background: rgba(78, 78, 78, 1);
+    transition: all 0.3s ease 0s;
+    z-index: 999;
+    overflow-y: auto;
+  }
+  ul.navbar-nav {
+    padding: 20px;
+    margin: 65px 15px 15px;
+    min-height: calc(100vh - 80px);
+    transition: 0.5s all ease;
+    background: white;
+  }
+  nav a.nav-link, nav a.nav-link:focus {
+    color: rgba(0,0,0,0.8) !important;
+  }
+  nav a.nav-link:hover {
+    color: #0078ff !important;
+  }
+  .dropdown-toggle::after {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  ul.dropdown-menu {
+    border: 0;
+    box-shadow: 0 0 8px rgb(0 0 0 / 30%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Wok Section */
+  #work .work-card a {
+    margin-top: 15px;
+  }
+
+  /* Contact Section */
+  #contact .contact-form .btn{
+    padding: 4px 0 6px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* General */
+  section .main-header .title {
+    font-size: 38px;
+  }
+
+  /* Navbar */
+  nav li a.active::before {
+    width: 100%;
+  }
+
+  /* Home Section */
+  #home h1 {
+    font-size: 52px;
+    line-height: 65px;
+  }
+  #home h3 {
+    font-size: 28px;
+  }
+
+  /* Testmonial Section */
+  .testmonial-section .carousel-item .card-text {
+    width: 100%;
+  }
+}

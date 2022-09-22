@@ -1,0 +1,93 @@
+#home h3::after {
+  content: '';
+  color: #fff;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  text-transform: capitalize;
+  animation: typing 10s infinite;
+}
+
+@keyframes typing {
+  0%  {content: 'd |'}
+  1%  {content: 'de |'}
+  2%  {content: 'dev |'}
+  3%  {content: 'deve |'}
+  4%  {content: 'devel |'}
+  5%  {content: 'develo |'}
+  6%  {content: 'develop |'}
+  7%  {content: 'develope |'}
+  8%  {content: 'developer |'}
+  9%  {content: 'develope |'}
+  10% {content: 'develop |'}
+  11% {content: 'develo |'}
+  12% {content: 'devel |'}
+  13% {content: 'deve |'}
+  14% {content: 'dev |'}
+  15% {content: 'de |'}
+  16% {content: 'd |'}
+  17% {content: ' |'}
+  19% {content: '|'}
+  20% {content: ' f |'}
+  21% {content: ' fr |'}
+  22% {content: ' fre |'}
+  23% {content: ' free |'}
+  24% {content: ' freel |'}
+  25% {content: ' freela |'}
+  26% {content: ' freelan |'}
+  27% {content: ' freelanc |'}
+  28% {content: ' freelance |'}
+  29% {content: ' freelancer |'} 
+  30% {content: ' freelance |'} 
+  31% {content: ' freelanc |'}
+  32% {content: ' freelan |'}
+  33% {content: ' freela |'}
+  34% {content: ' freel |'}
+  35% {content: ' free |'}
+  36% {content: ' fre |'}
+  37% {content: ' fr |'}
+  38% {content: ' |'}
+  40% {content: ' |'}
+  41% {content: ' p |'} 
+  42% {content: ' ph |'}
+  43% {content: ' pho |'}
+  44% {content: ' phot |'}
+  45% {content: ' photo |'}
+  46% {content: ' photog |'}
+  47% {content: ' photogr |'}
+  48% {content: ' photogra |'}
+  49% {content: ' photograp |'}
+  50% {content: ' photograph |'}
+  51% {content: ' photographe |'}
+  52% {content: ' photographer |'}
+  53% {content: ' photographer |'}
+  54% {content: ' photographe |'}
+  55% {content: ' photograph |'}
+  56% {content: ' photograp |'}
+  57% {content: ' photogra |'}
+  58% {content: ' photogr |'}
+  59% {content: ' photog |'}
+  60% {content: ' photo |'}
+  61% {content: ' phot |'}
+  62% {content: ' pho |'}
+  63% {content: ' ph |'}
+  64% {content: ' p |'} 
+  65% {content: ' |'}
+  67% {content: '|'}
+  68% {content: ' d |'}
+  69% {content: ' de |'}
+  70% {content: ' des |'}
+  71% {content: ' desi |'}
+  72% {content: ' desig |'}
+  73% {content: ' design |'}
+  74% {content: ' designe |'}
+  75% {content: ' designer |'}
+  76% {content: ' designe |'} 
+  77% {content: ' desig |'}
+  78% {content: ' desi |'}
+  79% {content: ' des |'}
+  80% {content: ' de |'}
+  81% {content: ' d |'}
+  82% {content: ' |'}
+  100%{content: '|'} 
+}
