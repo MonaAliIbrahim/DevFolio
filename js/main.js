@@ -5,6 +5,13 @@ $(document).ready(function() {
       statSectionOffset = $('.statistic-section').offset().top,
       fireCounter = false;
 
+  // Hide Navbar after Click Event
+  $('#main-navbar .nav-item').click(function() {
+    $(this).children().addClass('active');
+    $('.navbar-collapse').removeClass('show');
+    $('.navbar-toggler').attr('aria-expanded','false');
+  });
+
   $(document).scroll(function () {
     // Handle Back to top Button
     if($(document).scrollTop() >= aboutSectionOffset) {
